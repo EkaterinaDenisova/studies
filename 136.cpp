@@ -41,6 +41,5 @@ int main () {
 	catch (invalid_argument e) { //"ловим" исключения типа invalid_argument
 		cout << e.what(); //what выводит сообщение, добавленное в функцию invalid_argument()
 	}
-
     return 0;
 }
