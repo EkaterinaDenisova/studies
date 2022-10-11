@@ -26,6 +26,7 @@ int main () {
 	cout << "Enter number of elements in array: ";
 	cin >> n; // получение от пользователя размера массива
 
+
 	try {
 		srand(time(0)); // инициализация генератора случайных чисел
 		write_random_to_file(filename,n,1,10); // заполнение файла случайными числами
