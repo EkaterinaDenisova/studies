@@ -9,6 +9,7 @@
 
 using namespace std;  // std - стандартнрое пространство имён
 
+
 /// заполнение файла filename случайными числами (количеством n) из промежутка [nmin...nmax]
 void arrf::write_random_to_file (string filename, int n, int nmin, int nmax) {	
 	// precondition check 
