@@ -15,6 +15,9 @@
 using namespace std;  // std - стандартное пространство имён
 using namespace arrf; // arrf - пользовательское пространство имён с функциями для работы с массивом
 
+
+
+
 int main () {
 	string filename = "data"; // имя файла
 	int n; // число элементов массива
